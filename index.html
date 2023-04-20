@@ -319,7 +319,7 @@
         </h3>
      <div class="footer__top">
          <ul class="footer__info">
-             <li>
+             <li class="footer__info-item">
                <dl>
                  <dt>Contact Center</dt>
                    <dd><a href="tel:+390418380060">+390418380060</a></dd>
@@ -327,7 +327,7 @@
                    <dd><a href="mailto:info@autodromodoalgarve.com">info@autodromodoalgarve.com</a></dd>
                </dl>
              </li>
-             <li>
+             <li class="footer__info-item">
                  <dl>
                  <dt>TICKETS</dt>
                  <dd><a href="tel:+390418380060">+390418380060</a></dd>
@@ -354,13 +354,26 @@
              </li>
          </ul>
          <div class="footer__address">
+            <p class="footer__address-title">
+                ADDRESS
+            </p>
+             <address class="footer__address-text">
+                 Sitio do Escampadinho, Mexilhoeira Grande, 8500-148 Portimao, Portugal
+             </address>
+             <div id="map"></div>
          </div>
      </div>
         <div class="footer__bottom">
+            <a class="footer__bottom-link" href="#">Design by VP</a>
+            <a href="#" class="footer__logo">
+                <img src="images/logo-footer.svg" alt="logo" class="footer__logo-img">
+            </a>
+            <a class="footer__bottom-link" href="#">Privacy Policy</a>
         </div>
     </div>
 </footer>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
